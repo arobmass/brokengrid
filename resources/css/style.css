@@ -1,0 +1,43 @@
+body{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#background{
+  background-color: lightgray;
+  width: 100%;
+  height: 80vh;
+}
+
+#left{
+  width: 400px;
+  height: 200px;
+  background-color: #14171c;
+  margin-left: 80px;
+  z-index: 1;
+  position: relative;
+  top: 150px;
+}
+
+#right{
+  width: 600px;
+  height: 100vh;
+  background-color: orange;
+  margin-left: -90px;
+}
+
+#broken{
+  display: flex;
+}
+
+#bottom{
+  width: 40vh;
+  height: 40vh;
+  background-color: gray;
+  position: relative;
+  bottom: 60%;
+}
+
+#right img{
+  width: 100%;
+}
